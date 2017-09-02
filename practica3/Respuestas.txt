@@ -22,3 +22,11 @@ c) Se pueden crear interfaces de red virtuales con ifconfig a partir de la
 d) La gateway es la dirección a donde todos los paquetes con destino afuera
    la red local se deben mandar. La netmask sirve para saber qué parte de nuestra
    IP es parte de los bits de prefijo de red y qué parte son los bits de host.
+e) Syslogd es un demonio que escucha mensajes en un puerto de dominio de Unix
+   llamado /dev/log. Basado en la clase de información de los mensajes y de su
+   archivo de configuración (en /etc/syslog.conf), syslogd puede enrutar mensajes
+   de varias formas, por ejemplo:
+     * Escribirlas a la consola
+     * Mandarlas por correo a un usuario
+     * Escribirlas a un archivo de log
+
