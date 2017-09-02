@@ -1,7 +1,24 @@
-Archivos 
+a) Archivos
 - /etc/resolv.conf: archivo de configuración del resolvedor, quien provee
     al Domain Name System (DNS) de Internet. Este archivo suele contener
     direcciones de servidores de DNS, quienes pueden proveer las direcciones
     de hosts en internet dado su hostname.
-- /etc/hosts: es un archivo de texto simple que asocia nombres de hosts a direcciones
-    IP
+- /etc/hosts: es un archivo de texto simple que asocia nombres de hosts a 
+    direcciones IP
+- /etc/hosts.allow y hosts.deny son archivos que permiten configurar de qué
+    direcciones se aceptan conexiones externas.
+- /etc/network/interfaces es el archivo de configuración de los comandos
+    ifup, ifdown e ifquery, esencialmente permite configurar cómo se conecta
+    el equipo a la red
+b) Para configurar una IP dinámica, en /etc/network/interfaces, se introduce 
+   la siguiente configuración:
+   auto eth0
+   iface eth0 inet dhcp
+c) Se pueden crear interfaces de red virtuales con ifconfig a partir de la
+   interfaz de red original, por ejemplo si esta fuera eth0, podría utilizarse
+   el comando
+        ifconfig eth0:0 123.123.22.22
+   para crear una interfaz virtual y asignarle la dirección 123.123.22.22
+d) La gateway es la dirección a donde todos los paquetes con destino afuera
+   la red local se deben mandar. La netmask sirve para saber qué parte de nuestra
+   IP es parte de los bits de prefijo de red y qué parte son los bits de host.
