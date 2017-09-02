@@ -1,0 +1,7 @@
+Archivos 
+- /etc/resolv.conf: archivo de configuración del resolvedor, quien provee
+    al Domain Name System (DNS) de Internet. Este archivo suele contener
+    direcciones de servidores de DNS, quienes pueden proveer las direcciones
+    de hosts en internet dado su hostname.
+- /etc/hosts: es un archivo de texto simple que asocia nombres de hosts a direcciones
+    IP
