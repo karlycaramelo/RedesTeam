@@ -1,3 +1,7 @@
+Karla Esquivel 
+Diego Carrillo Verduzco
+Arnold Solis Chávez
+
 a) Archivos
 - /etc/resolv.conf: archivo de configuración del resolvedor, quien provee
     al Domain Name System (DNS) de Internet. Este archivo suele contener
