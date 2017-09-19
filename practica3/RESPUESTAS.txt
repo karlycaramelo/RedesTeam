@@ -1,0 +1,24 @@
+Paquetes incluídos en build-essentials:
+  -dpkg-dev: herramientas de desarrollo de debian
+  -g++: compilador de C++ de GNU
+  -gcc: compilador de C de GNU
+  -libc0.3-dev: bibliotecas de desarrollo de GNU C
+  -make: herramienta para automatizar la compilación
+
+nmap: utilidad para descubrir Hosts y servicios de una red de computadoras. 
+      Manda paquetes especiales a los hosts objetivo y analiza las respuestas.
+
+traceroute: herramienta para mostrar la ruta y medir los retrasos de transito de un paquete
+            a través de una red IP.
+
+dig: herramienta para interrogar servidores de DNS.
+
+host: utilidad para hacer búsquedas de DNS. Usualmente se utiliza para convertir nombres a direcciones
+      IP y vice versa.
+
+nslookup: herramienta para interrogar servidores de DNS sobre información de hosts y dominios.
+
+ifconfig: herramienta de configuración de interfaces de red, con usos tales como establecer la
+          dirección IP o máscara de red de una interfaz.
+
+dhclient: herramienta para configurar interfaces de red utilizando el protocolo DHCP.
